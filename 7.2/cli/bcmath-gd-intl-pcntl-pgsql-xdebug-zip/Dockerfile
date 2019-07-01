@@ -1,4 +1,4 @@
-FROM php:7.2-cli-alpine
+FROM rgblighthouse/php:7.2-cli
 MAINTAINER Andrzej Budzanowski <kontakt@andrzej.budzanowski.pl>
 
 RUN apk add --no-cache --virtual .phpize-deps $PHPIZE_DEPS                      &&  \
